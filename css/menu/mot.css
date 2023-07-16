@@ -1,0 +1,107 @@
+
+
+/* HEADER */
+
+
+header
+{
+	background-color: var(--background-trois);
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px;
+    border: 20px solid var(--background-deux);
+    border-bottom: 0;
+}
+
+header nav ul li
+{
+	margin-right: 20px;
+}
+
+header nav ul li:last-of-type
+{
+    margin-right: 0;
+}
+
+
+/* SECTION GAUCHE */
+
+
+#section-gauche
+{
+    width: 30%;
+    height: 100%;
+
+    border-right: 20px solid var(--background-deux);	
+}
+
+
+/* SECTION GAUCHE DIV MENU */
+
+
+#section-gauche div h2
+{
+    padding-bottom: 0;
+}
+
+#section-gauche div a
+{
+    margin-right: 10px;
+}
+
+#section-gauche div a:first-of-type
+{
+    margin-left: 0;
+}
+
+#section-gauche div a:last-of-type
+{
+    margin-right: 0;
+}
+
+
+/* SECTION DROITE */
+
+
+#section_droite
+{
+    width: 70%;
+    height: 100%;
+}
+
+
+/* SECTION DROITE DIV MOT */
+
+
+#section_droite div div p:first-child
+{
+    margin-right: 10px;    
+    padding-bottom: 0;
+}
+
+#section_droite div .div-mot-boucle-a a:nth-child(1)
+{
+    margin-right: 10px;
+}
+
+#section_droite div.div-mot-boucle-a a:nth-child(2)
+{
+    margin-left: 10px;
+}
+
+#section_droite form
+{
+    border-top: 0;
+}
+
+#section_droite form .flex-dir-col-center input
+{
+    width: 30%;
+}
+
+#section_droite form .flex-dir-col-center input:nth-child(2)
+{
+    margin-top: 0;
+}

@@ -1,0 +1,285 @@
+
+
+/* INDEX SECTION GAUCHE */
+
+
+#index-section-gauche
+{
+    width: 30%;
+    height: 100%;
+
+    border-right: 20px solid var(--background-deux);
+}
+
+
+/* INDEX ARTICLE PROFILE */
+
+
+#index-section-gauche #index-article-profile
+{
+    text-align: center;
+}
+
+#index-section-gauche #index-article-profile #index-div-profile p
+{
+    padding: 20px;
+}
+
+#index-section-gauche #index-article-profile #index-div-profile a:nth-child(1)
+{
+    background-color: var(--background-name);
+
+    border: 2px solid #000000;
+}
+
+#index-section-gauche #index-article-profile #index-div-profile p:nth-child(2)
+{
+    background-color: var(--background-niveau);
+}
+
+#index-section-gauche #index-article-profile #index-div-profile p:nth-child(3)
+{
+    background-color: var(--background-xp);
+}
+
+#index-section-gauche #index-article-profile #index-div-profile a:nth-child(4)
+{
+    background-color: var(--background-parametre);
+
+    border-top: 2px solid #000000;   
+    border-right: 2px solid #000000;   
+    border-left: 2px solid #000000;   
+}
+
+#index-section-gauche #index-article-profile #index-div-profile a:nth-child(5)
+{
+    background-color: var(--background-deconnexion);
+
+    border: 2px solid #000000;    
+}
+
+
+/* INDEX ARTICLE AJOUTER */
+
+
+#index-section-gauche #index-article-ajouter
+{
+    background-color: var(--background-trois);
+
+    padding: 20px;
+    border-top: 20px solid var(--background-deux);    
+}
+
+#index-section-gauche #index-article-ajouter form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#index-section-gauche #index-article-ajouter form input:first-of-type
+{
+    margin-top: 0;
+}
+
+
+/* INDEX ARTICLE THEME */
+
+
+#index-section-gauche #index-article-theme
+{
+    background-color: var(--background-trois);
+
+    padding: 20px;
+    border-top: 20px solid var(--background-deux);    
+}
+
+#index-section-gauche #index-article-theme div
+{
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+}
+
+#index-section-gauche #index-article-theme div img
+{
+    cursor: pointer;
+    background-color: var(--background-submit);
+
+    width: 100%;
+    height: auto;
+
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#index-section-gauche #index-article-theme div img:hover
+{
+    background-color: #000;
+}
+
+
+/* INDEX SECTION DROITE */
+
+
+#index-section-droite
+{
+    width: 70%;
+    height: 100%;
+}
+
+
+/* INDEX FORM RECHERCHER */
+
+
+#index-section-droite form #index-div-rechercher
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    padding: 20px 0;
+}
+
+#index-section-droite form #index-div-rechercher input:nth-child(1)
+{
+    width: 50%;    
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: var(--background-input);
+
+    border: 2px solid #000000;
+}
+
+#index-section-droite form #index-div-rechercher input:nth-child(1):focus
+{
+    background-color: var(--color-valid);
+}
+
+#index-section-droite form #index-div-rechercher input:nth-child(2)
+{
+    width: 99px;    
+    cursor: pointer;    
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--background-scroll-bar);
+    background-color: var(--background-submit);
+
+    margin-left: 20px;
+    padding: 5px;
+    border: 2px solid #000;    
+    border-radius: 10px;    
+}
+
+#index-section-droite form #index-div-rechercher input:nth-child(2):hover
+{
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+
+/* INDEX DIV TODOLIST */
+
+
+#index-section-droite #index-div-todolist
+{
+    height: 613px;
+    font-size: 1.1em;
+    text-align: center;
+    background-color: var(--background-xp);
+    overflow-y: scroll;
+
+    border-top: 20px solid var(--background-deux);
+}
+
+#index-section-droite #index-div-todolist .index-div-todolist-boucle
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px 0;
+    border-bottom: 20px solid var(--background-deux);
+}
+
+#index-section-droite #index-div-todolist .index-div-todolist-boucle:last-of-type
+{
+    border-bottom: none;
+}
+
+#index-section-droite #index-div-todolist #supprimer-last-type
+{
+    border-bottom: 20px solid var(--background-deux);    
+}
+
+#index-section-droite #index-div-todolist .index-div-todolist-boucle p
+{
+    padding-bottom: 10px;
+}
+
+#index-section-droite #index-div-todolist .index-div-todolist-boucle p:last-of-type
+{
+    padding-bottom: 12px;
+}
+
+#index-section-droite #index-div-todolist .index-div-todolist-boucle #index-div-todolist-boucle-option
+{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+#index-section-droite #index-div-todolist .index-div-todolist-boucle #index-div-todolist-boucle-option a
+{
+    width: 20%;
+
+    margin-top: 0;
+}
+
+#index-section-droite #index-div-todolist .index-div-todolist-boucle #index-div-todolist-boucle-option a:first-child
+{
+    margin-right: 10px;
+}
+
+#index-section-droite #index-div-todolist .index-div-todolist-boucle #index-div-todolist-boucle-option a:last-child
+{
+    margin-left: 10px;
+}
+
+
+/* INDEX FORM TODOLIST MODIFIER */
+
+
+#index-form-todolist-modifier .flex-dir-col-center input
+{
+    width: 30%;
+}
+
+#index-form-todolist-modifier .flex-dir-col-center input:nth-child(2)
+{
+    margin-top: 0;
+}
+
+
+/* NAV */
+
+
+nav
+{
+    background-color: var(--background-trois);
+
+    padding: 20px;
+    border-top: 20px solid var(--background-deux);
+}
+
+nav li
+{
+    margin-right: 20px;    
+    padding: 5px 0;
+}
+
+nav li:last-of-type
+{
+    margin-right: 0;
+}

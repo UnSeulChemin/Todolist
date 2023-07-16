@@ -1,0 +1,194 @@
+
+
+/* DEFAULT */
+
+
+body
+{
+    background-color: var(--background-deux);
+}
+
+#container
+{
+    padding: 0;
+}
+
+
+/* SECTION UN */
+
+
+#portfolio-section-un
+{
+    background-color: #fff;
+}
+
+#portfolio-section-un .flex-ali-center-bet
+{
+    padding: 25px;
+}
+
+#portfolio-section-un .flex-ali-center-bet .flex-ali-center a
+{
+    margin-right: 25px;
+}
+
+#portfolio-section-un .flex-ali-center-bet .flex-ali-center a:last-of-type
+{
+    margin-right: 0;
+}
+
+
+/* SECTION DEUX */
+
+
+#portfolio-section-deux
+{
+    /* background-color: var(--background-deux); COULEUR SUR LE BODY */
+}
+
+
+/* PORTFOLIO */
+
+
+#portfolio-section-deux #portfolio p
+{
+    padding: 20px 0;
+}
+
+#portfolio-section-deux #portfolio div div .cv-background-deux .p-cibler p
+{
+    padding: 10px 0;
+}
+
+#portfolio-section-deux #portfolio div div .cv-background-deux .p-cibler p:first-of-type
+{
+    padding-top: 0;
+}
+
+#portfolio-section-deux #portfolio div div .cv-background-deux .p-cibler p:last-of-type
+{
+    padding-bottom: 20px;
+}
+
+#portfolio-section-deux #portfolio div div .cv-background-deux .portfolio-img-div div:nth-child(1)
+{
+    width: 49%;
+}
+
+#portfolio-section-deux #portfolio div div .cv-background-deux .portfolio-img-div div:nth-child(2)
+{
+    width: 49%;
+}
+
+#portfolio-section-deux #portfolio div div .cv-background-deux .portfolio-img-div div img
+{
+    width: 100%;
+    height: auto;
+}
+
+
+/* RECOMMENDATION */
+
+
+#portfolio-section-deux #recommandation
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#portfolio-section-deux #recommandation div .inline-block
+{
+    margin-right: 17px;
+}
+
+#portfolio-section-deux #recommandation div .inline-block:last-of-type
+{
+    margin-right: 0;
+}
+
+#portfolio-section-deux #recommandation div .inline-block p
+{
+    padding: 20px 0;
+}
+
+
+/* EXPERTISE */
+
+
+#portfolio-section-deux #expertise 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#portfolio-section-deux #expertise p
+{
+    padding: 20px 0;
+}
+
+#portfolio-section-deux #expertise div div .cv-background-deux #bar-un
+{
+    width: 85%;
+}
+
+#portfolio-section-deux #expertise div div .cv-background-deux #bar-deux
+{
+    width: 80%;
+}
+
+#portfolio-section-deux #expertise div div .cv-background-deux #bar-trois
+{
+    width: 80%;
+}
+
+#portfolio-section-deux #expertise div div .cv-background-deux #bar-quatre
+{
+    width: 75%;
+}
+
+
+/* INFO */
+
+
+#portfolio-section-deux #info
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#portfolio-section-deux #info div div p
+{
+    padding: 20px 0;
+}
+
+#portfolio-section-deux #info div #disponibilite .cv-background-deux p
+{
+    padding: 10px 0;
+}
+
+#portfolio-section-deux #info div div p a
+{
+    color: var(--background-deconnexion);
+    text-decoration: none;
+}
+
+#portfolio-section-deux #info div .cv-background-deux div p
+{
+    padding: 10px 0;
+}
+
+#portfolio-section-deux #info #info-div-photo
+{
+    width: 400px;
+    height: 400px;
+
+    display: flex;
+
+    margin-top: 50px;    
+}
+
+#portfolio-section-deux #info #info-div-photo img
+{
+    width: 100%;
+    height: auto;
+}

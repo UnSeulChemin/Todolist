@@ -1,0 +1,217 @@
+
+
+/* INSCRIPTION SECTION */
+
+
+#inscription-section
+{
+    background-color: var(--background-deux);
+
+    display: flex;
+
+    padding: 20px;
+}
+
+
+/* INSCRIPTION SECTION GAUCHE */
+
+
+#inscription-section #inscription-section-gauche
+{
+    width: 70%;
+    height: 100%;
+
+    border-right: 20px solid var(--background-deux);
+}
+
+#inscription-section #inscription-section-gauche #inscription-div-gauche
+{
+    text-align: center;   
+    background-color: var(--background-trois);
+
+    padding: 20px;
+}
+
+#inscription-section #inscription-section-gauche #inscription-div-gauche h3:last-child
+{
+    padding-bottom: 0;
+}
+
+
+/* INSCRIPTION SECTION DROITE */
+
+
+#inscription-section #inscription-section-droite
+{
+    width: 30%;
+    height: 100%;
+}
+
+#inscription-section #inscription-section-droite #inscription-div-droite
+{
+    text-align: center;   
+    background-color: var(--background-trois);
+
+    padding: 20px;
+}
+
+#inscription-section #inscription-section-droite #inscription-div-droite form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#inscription-section #inscription-section-droite #inscription-div-droite form input:nth-child(2)
+{
+    margin-top: 0;
+}
+
+#inscription-section #inscription-section-droite #inscription-div-droite form .position-rel input
+{
+    width: 100%;
+}
+
+#inscription-section #inscription-section-droite #inscription-div-droite form #radio-div
+{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+
+#inscription-section #inscription-section-droite #inscription-div-droite form #radio-div div:first-child
+{
+    display: flex;
+
+    margin-right: 10px;
+}
+
+#inscription-section #inscription-section-droite #inscription-div-droite form #radio-div div:last-child
+{
+    display: flex;
+
+    margin-left: 10px;
+}
+
+#inscription-section #inscription-section-droite #inscription-div-droite form #inscription-div-existant
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#inscription-section #inscription-section-droite #inscription-div-droite form #inscription-div-existant h2
+{
+    margin-top: 20px;
+    padding-bottom: 0;
+}
+
+
+/* CONNEXION SECTION */
+
+
+#connexion-section
+{
+    background-color: var(--background-deux);
+
+    display: flex;
+
+    padding: 20px;
+}
+
+
+/* CONNEXION SECTION GAUCHE */
+
+
+#connexion-section #connexion-section-gauche
+{
+    width: 70%;
+    height: 100%;
+
+    border-right: 20px solid var(--background-deux);
+}
+
+#connexion-section #connexion-section-gauche #connexion-div-gauche
+{
+    text-align: center;   
+    background-color: var(--background-trois);
+
+    padding: 20px;
+}
+
+#connexion-section #connexion-section-gauche #connexion-div-gauche h3:last-child
+{
+    padding-bottom: 0;
+}
+
+
+/* CONNNEXION SECTION DROITE */
+
+
+#connexion-section #connexion-section-droite
+{
+    width: 30%;
+    height: 100%;
+}
+
+#connexion-section #connexion-section-droite #connexion-div-droite
+{
+    text-align: center;   
+    background-color: var(--background-trois);
+
+    padding: 20px;
+}
+
+#connexion-section #connexion-section-droite #connexion-div-droite form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#connexion-section #connexion-section-droite #connexion-div-droite form input:nth-child(2)
+{
+    margin-top: 0;
+}
+
+#connexion-section #connexion-section-droite #connexion-div-droite form .position-rel input
+{
+    width: 100%;
+}
+
+#connexion-section #connexion-section-droite #connexion-div-droite form #connexion-div-non-existant
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#connexion-section #connexion-section-droite #connexion-div-droite form #connexion-div-non-existant h2
+{
+    margin-top: 20px;
+    padding-bottom: 0;
+}
+
+
+/* ADMINISTRATION FOOTER */
+
+
+footer
+{
+    background-color: var(--background-deux);
+
+    display: flex;
+
+    padding: 0 20px 20px 20px;
+}
+
+footer section
+{
+    width: 100%;    
+    text-align: center;
+    background-color: var(--background-trois);
+
+    padding: 20px;
+}
+
+footer section p:last-of-type
+{
+    padding-bottom: 0;
+}
